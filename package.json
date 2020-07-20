@@ -2,7 +2,7 @@
   "name": "ionicappreact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://faznaharees.github.io/SampleConverter/",
+  "homepage": "https://faznaharees.github.io/SampleConverter/home",
   "dependencies": {
     "@ionic/react": "^5.2.3",
     "@testing-library/jest-dom": "^4.2.4",
