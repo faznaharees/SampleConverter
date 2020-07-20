@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ioncard {
+
+}
+
+input {margin:10px;border:1px solid gray;padding:10px;}
+.header {
+  background:lightblue;
+  padding:10px;
+  color:white;
+  text-align:center;
+  margin: 0;
+  border-radius: 0;
+}
