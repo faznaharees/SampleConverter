@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { IonCard, IonCardContent } from '@ionic/react'
 
 export default class Input20 extends Component {
     
@@ -51,7 +52,9 @@ export default class Input20 extends Component {
         
         return (
             <div>
-                <center>
+               <center> <IonCard className="inputcard">
+                   <IonCardContent>
+                  
                 <input type="number" value={amount} name="amount" onChange={this.handleChange}/>
                 <select name="base" value={base} onChange={this.handleSelect}>
                     {currencies.map(currency=> 
@@ -62,7 +65,10 @@ export default class Input20 extends Component {
                     {currencies.map(currency=> 
                         <option value={currency}>{currency}</option>)}
                 </select>
-                </center>
+                
+                   </IonCardContent>
+               </IonCard>
+               </center>
             </div>
         )
     }

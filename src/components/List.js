@@ -39,7 +39,7 @@ export default class List extends Component {
                     <IonList>
                     {this.state.name.map(item => 
                     <Link to={{pathname:item.id,testvalue:item.id}}>
-                    <IonItem className="ioncard"><IonLabel>{item.title}</IonLabel></IonItem>
+                    <IonItem className="ioncard"><IonLabel >{item.title}</IonLabel></IonItem>
                     </Link>
                     )}
 
